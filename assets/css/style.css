@@ -1,0 +1,21 @@
+.custom-nav {
+    backdrop-filter: blur(8px);
+}
+.brand-gradient {
+    background: -webkit-repeating-linear-gradient(to top, #0091ff, #32cd4c);
+    background: repeating-linear-gradient(to top, #0091ff, #32cd4c); /* For non-webkit browsers */
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.banner-holder {
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: bottom;
+    height: 600px; /* Set an appropriate height */
+}
+.main-page-header {
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
